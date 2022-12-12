@@ -3,13 +3,14 @@
 
 
     <string-array name="fruit">
-        <item>apple</item>
-        <item>banana</item>
-        <item>grape</item>
-        <item>orange</item>
-        <item>pineapple</item>
-        <item>strawberry</item>
-        <item>watermelon</item>
+        <item>사과</item>
+        <item>바나나</item>
+        <item>포도</item>
+        <item>오렌지</item>
+        <item>파파야</item>
+        <item>파인애플</item>
+        <item>딸기</item>
+        <item>수박</item>
 
     </string-array>
 
