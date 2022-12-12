@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 rootProject.name = "201501496HET"
 include ':app'
 include ':mobile2'
+include ':mobile3'

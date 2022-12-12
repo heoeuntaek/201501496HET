@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.KeyEvent
 import android.view.KeyEvent.KEYCODE_ENTER
+import android.widget.EditText
 import kotlinx.android.synthetic.main.activity_main2.*
 
 class MainActivity2 : AppCompatActivity() {
@@ -13,6 +14,8 @@ class MainActivity2 : AppCompatActivity() {
 
 
 
+
+        var etInput = findViewById<EditText>(R.id.etInput)
 
         etInput.setOnKeyListener { v, keyCode, event ->
             if (event.action == KeyEvent.ACTION_DOWN && keyCode == KEYCODE_ENTER) {
