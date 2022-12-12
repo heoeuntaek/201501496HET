@@ -11,11 +11,12 @@ class MainActivity2 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main2)
 
-        var word = etInput.text.toString()
+
 
 
         etInput.setOnKeyListener { v, keyCode, event ->
             if (event.action == KeyEvent.ACTION_DOWN && keyCode == KEYCODE_ENTER) {
+                var word = etInput.text.toString()
                 when (word) {
                     "inadvertent" -> tvWord.text = "부주의한, 소홀한"
                     "debilitate" -> tvWord.text ="쇠약하게 하다"
