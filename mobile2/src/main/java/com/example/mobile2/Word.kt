@@ -1,8 +1,6 @@
 package com.example.mobile2
 
-data class Word(val question: String,
-                val number_1: String,
-                val number_2: String,
-                val number_3: String,
-                val number_4: String,
-                val answer:Int )
+data class Word(
+    val english: String,
+    val korean: String,
+)
